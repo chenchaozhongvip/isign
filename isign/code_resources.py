@@ -7,6 +7,9 @@ import os
 import plistlib
 from plistlib import PlistWriter
 import re
+import sys
+reload(sys)
+sys.setdefaultencoding('utf8')
 
 OUTPUT_DIRECTORY = '_CodeSignature'
 OUTPUT_FILENAME = 'CodeResources'
